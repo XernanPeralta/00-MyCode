@@ -3,8 +3,7 @@
     vertical-align: top;
 }
 .logo {
-    width: 23%;
-    padding: 1%;
+    left: 100px;
     text-align: center;
 }
 .navigation {
@@ -16,11 +15,9 @@
     margin-left: auto;
 }
 .heroImg {
-    padding: 25px;
-}
-.content {
-    width: 500px;
-    margin: 0 auto;
+    margin-left: 100px;
+    align-self: left;
+    border-radius: 30px;
 }
 .footer {
     background-color: #e5e5e5;
@@ -30,4 +27,11 @@
     float: left;
     width: 33%;
     padding: 0 100px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "heroImg content"
 }
